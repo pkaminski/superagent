@@ -1,7 +1,7 @@
 {
-  "name": "superagent",
+  "name": "superagent-ls",
   "version": "1.1.0",
-  "description": "elegant & feature rich browser / node HTTP with a fluent API",
+  "description": "Superagent with less suck - (browser and node.js HTTP clients)",
   "scripts": {
     "test": "make test"
   },
@@ -13,11 +13,12 @@
   ],
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "contributors": [
-    "Hunter Loftis <hunter@hunterloftis.com>"
+    "Hunter Loftis <hunter@hunterloftis.com>",
+    "Kevin Malakoff <kmalakoff@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/visionmedia/superagent.git"
+    "url": "git://github.com/kmalakoff/superagent-ls.git"
   },
   "dependencies": {
     "qs": "2.3.3",
@@ -53,7 +54,7 @@
   },
   "component": {
     "scripts": {
-      "superagent": "lib/client.js"
+      "superagent-ls": "lib/client.js"
     }
   },
   "main": "./lib/node/index.js",

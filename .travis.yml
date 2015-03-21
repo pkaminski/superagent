@@ -4,8 +4,8 @@ language: node_js
 
 env:
   global:
-    - SAUCE_USERNAME='shtylman-superagent'
-    - SAUCE_ACCESS_KEY='39a45464-cb1d-4b8d-aa1f-83c7c04fa673'
+    - secure: j5T587q9LQWfbn11/dNTRnGnuy79CFR//WYkfEErHV5CO5Sj0RsS+FwWp5cFZJm2opmMHXcdsJRgca7qI355R4/iA64lu4mTmQBc/vGrqestXc9/ppViavBg3MiiRJ5visuUt7yPzlXKzSaLBwmCjBUhrMMTYD7BzMggce+c03U=
+    - secure: gzv2N/M1hp+cxYBhcLgKQ6aq0l5WmRlgG+ZLJN0V4TWfG7tnd5A8fpVhQWlaI38TeqNVvNH9YVg4FvcbOTEMTM0mbgWXYinnGWzSKVWsiQMmFMWXRkFTUt5R9fuuRgx/pMYifI6NsDbpwtyF/PMLG/vA0yjo5jRQRky+OgxwPj4=
 
 matrix:
   include:

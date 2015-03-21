@@ -1,8 +1,10 @@
-# SuperAgent [![Build Status](https://travis-ci.org/visionmedia/superagent.svg?branch=master)](https://travis-ci.org/visionmedia/superagent)
+# SuperAgent (with less suck) [![Build Status](https://travis-ci.org/kmalakoff/superagent-ls.svg?branch=master)](https://travis-ci.org/kmalakoff/superagent-ls)
 
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/shtylman-superagent.svg)](https://saucelabs.com/u/shtylman-superagent)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/kmalakoff.svg)](https://saucelabs.com/u/kmalakoff)
 
 SuperAgent is a small progressive __client-side__ HTTP request library, and __Node.js__ module with the same API, sporting many high-level HTTP client features. View the [docs](http://visionmedia.github.com/superagent/).
+
+**FORK** this fork removes the suck introduced into superagent 1.x by returning the `end` api back to being compliant with node-style callback conventions as in the original superagent 0.x design. This fork will track official releases of superagent so everyone can benefit from improvements in superagent. The goal is merge this fork back into superagent and to retire this fork.
 
 ![super agent](http://f.cl.ly/items/3d282n3A0h0Z0K2w0q2a/Screenshot.png)
 
@@ -11,13 +13,13 @@ SuperAgent is a small progressive __client-side__ HTTP request library, and __No
 node:
 
 ```
-$ npm install superagent
+$ npm install superagent-ls
 ```
 
 component:
 
 ```
-$ component install visionmedia/superagent
+$ component install kmalakoff/superagent-ls
 ```
 
 Works with [browserify](https://github.com/substack/node-browserify) and should work with [webpack](https://github.com/visionmedia/superagent/wiki/Superagent-for-Webpack)
@@ -52,7 +54,7 @@ Superagent is easily extended via plugins.
 
 ```js
 var nocache = require('no-cache');
-var request = require('superagent');
+var request = require('superagent-ls');
 var prefix = require('superagent-prefix')('/static');
 
 prefix(request); // Prefixes *all* requests

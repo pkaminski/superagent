@@ -1,4 +1,10 @@
-# 1.1.0 (2015-03-13)
+1.1.0
+==================
+superagent-ls / 2015-03-21
+
+ * reverted API change from 1.0.0. See "All non-200 responses are treated as errors now"
+
+superagent / 2015-03-13
 
  * Fix responeType checks without xhr2 and ie9 tests (rase-)
  * errors have .status and .response fields if applicable (defunctzombie)
