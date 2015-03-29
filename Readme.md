@@ -1,6 +1,6 @@
 # SuperAgent (with less suck) [![Build Status](https://travis-ci.org/kmalakoff/superagent-ls.svg?branch=master)](https://travis-ci.org/kmalakoff/superagent-ls)
 
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/kmalakoff.svg)](https://saucelabs.com/u/kmalakoff)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/kmalakoff.svg?auth=3aae5a49ad38f721960413eb2b0ff6e2)](https://saucelabs.com/u/kmalakoff)
 
 SuperAgent is a small progressive __client-side__ HTTP request library, and __Node.js__ module with the same API, sporting many high-level HTTP client features. View the [docs](http://visionmedia.github.com/superagent/).
 
